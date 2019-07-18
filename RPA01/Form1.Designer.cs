@@ -39,7 +39,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
@@ -179,19 +178,6 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.Button7_Click_1);
             // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(116)))), ((int)(((byte)(191)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.ForeColor = System.Drawing.Color.Snow;
-            this.button9.Location = new System.Drawing.Point(12, 449);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(35, 21);
-            this.button9.TabIndex = 6;
-            this.button9.Text = "×";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.Button9_Click);
-            // 
             // textBox3
             // 
             this.textBox3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -207,7 +193,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1070, 482);
-            this.Controls.Add(this.button9);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -221,6 +206,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.Text = "RPA#1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -242,7 +228,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.TextBox textBox3;
     }
 }

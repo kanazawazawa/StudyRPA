@@ -176,13 +176,7 @@ namespace RPA01
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            this.ControlBox = false;
             GlobalVar.GlobalValue = 82;
-        }
-
-        private void Button9_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void Label1_Click(object sender, EventArgs e)
