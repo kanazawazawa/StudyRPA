@@ -3,19 +3,19 @@
 //     このコードはツールによって生成されました。
 //     ランタイム バージョン:4.0.30319.42000
 //
-//     このファイルへの変更は、以下の状況下で不正な動作の原因になったり、
-//     コードが再生成されるときに損失したりします
+//     このファイルへの変更は、正しくない動作の原因になったり、
+//     コードが再生成されるときに失われたりします。
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RPA01.Properties
+namespace RPA02.Properties
 {
 
 
     /// <summary>
     ///   ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
     /// </summary>
-    // このクラスは StronglyTypedResourceBuilder クラスが ResGen
+    // このクラスは StronglyTypedResourceBuilder クラスによって ResGen
     // または Visual Studio のようなツールを使用して自動生成されました。
     // メンバーを追加または削除するには、.ResX ファイルを編集して、/str オプションと共に
     // ResGen を実行し直すか、または VS プロジェクトをリビルドします。
@@ -44,7 +44,7 @@ namespace RPA01.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RPA01.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RPA02.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

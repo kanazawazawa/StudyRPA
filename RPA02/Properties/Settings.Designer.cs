@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RPA01.Properties
+namespace RPA02.Properties
 {
 
 
