@@ -57,7 +57,7 @@ namespace RPA02
             ScriptRobot.Text = ScriptRobot.Text + Environment.NewLine;
             ScriptRobot.Text = ScriptRobot.Text + "System.Diagnostics.Process.Start(\"https://www.google.com/\");";
             ScriptRobot.Text = ScriptRobot.Text + Environment.NewLine;
-            ScriptRobot.Text = ScriptRobot.Text + "Thread.Sleep(" + "1000" + ");";
+            ScriptRobot.Text = ScriptRobot.Text + "Thread.Sleep(" + "3000" + ");";
 
             ScriptRobot.Text = ScriptRobot.Text + Environment.NewLine;
             ScriptRobot.Text = ScriptRobot.Text + "if (Environment.GetEnvironmentVariable(\"ITSRPA01STOP\", EnvironmentVariableTarget.User) == \"1\"){throw new System.ArgumentException(\" * *********ITSRPA01STOP * *********\");}";

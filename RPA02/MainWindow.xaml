@@ -5,21 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RPA02"
         mc:Ignorable="d"
-        Title="MainWindow" Height="737.662" Width="1287.129">
-    <Grid Background="Black">
-        <TextBox x:Name="ScriptRobot" HorizontalAlignment="Left" Height="586" Margin="525,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="744" UndoLimit="107" AcceptsReturn="True" TextChanged="ScriptRobot_TextChanged" Background="Black" Foreground="#FFF57603" BorderBrush="#FFF57603"/>
-        <Button x:Name="ExecuteRobot" Content="▶ RPA実行" HorizontalAlignment="Left" Height="59" Margin="160,10,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click" FontSize="22" Background="Black" Foreground="#FFF57603" BorderBrush="#FFF57603"/>
-        <Button x:Name="StartBrowser" Content="Chrome起動" HorizontalAlignment="Left" Height="31" Margin="10,147,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click_1" HorizontalContentAlignment="Left" Background="Black" BorderBrush="#FFF57603" Foreground="#FFF57603"/>
-        <Button x:Name="InputKey" Content="キー入力" HorizontalAlignment="Left" Height="30" Margin="10,194,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click_2" HorizontalContentAlignment="Left" Background="Black" Foreground="#FFF57603" BorderBrush="#FFF57603"/>
-        <TextBox x:Name="InputKeyText" HorizontalAlignment="Left" Height="25" Margin="114,199,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="348" BorderBrush="#FFF57603" Background="Black" Foreground="#FFF57603"/>
-        <Button x:Name="InputEnter" Content="Enterキー入力" HorizontalAlignment="Left" Height="31" Margin="10,229,0,0" VerticalAlignment="Top" Width="99" Click="InputEnter_Click" HorizontalContentAlignment="Left" Background="Black" BorderBrush="#FFF57603" Foreground="#FFF57603"/>
-        <TextBox x:Name="InputProgramPath" HorizontalAlignment="Left" Height="23" Margin="114,118,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="348" BorderBrush="#FFF57603" Background="Black" Foreground="#FFF57603"/>
-        <Button x:Name="StartProgram" Content="プログラム起動" HorizontalAlignment="Left" Height="31" Margin="10,111,0,0" VerticalAlignment="Top" Width="99" Click="StartProgram_Click" HorizontalContentAlignment="Left" Background="Black" BorderBrush="#FFF57603" Foreground="#FFF57603"/>
-        <Button Content="💾 保存" HorizontalAlignment="Left" Height="59" Margin="10,10,0,0" VerticalAlignment="Top" Width="145" FontSize="22" Background="Black" BorderBrush="#FFF57603" Foreground="#FFF57603"/>
-        <Button Content="🔀 表示切替" HorizontalAlignment="Left" Height="59" Margin="525,10,0,0" VerticalAlignment="Top" Width="145" FontSize="22" Click="Button_Click_3" Background="#FFF57603"/>
-        <Image x:Name="scratch" Source="Resources\rpa.PNG" HorizontalAlignment="Left" Height="586" Margin="525,111,0,0" VerticalAlignment="Top" Width="744"/>
-        <Button Content="⛔ 停止" HorizontalAlignment="Left" Height="59" Margin="310,10,0,0" VerticalAlignment="Top" Width="145" FontSize="22" Click="Button_Click_4" Background="Black" BorderBrush="#FFD20A0A" Foreground="#FFD20A0A"/>
-        <Button Content="停止処理挿入" HorizontalAlignment="Left" Height="31" Margin="10,286,0,0" VerticalAlignment="Top" Width="99" HorizontalContentAlignment="Left" Click="Button_Click_5" Background="Black" BorderBrush="#FFD20A0A" Foreground="#FFD20A0A"/>
+        Title="StudyRPA" Height="737.662" Width="1287.129">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="467*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="ScriptRobot" HorizontalAlignment="Left" Height="586" Margin="179.5,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="744" UndoLimit="107" AcceptsReturn="True" TextChanged="ScriptRobot_TextChanged" Background="White" Foreground="#FF33344A" BorderBrush="#FF33344A" Grid.Column="1"/>
+        <Button x:Name="ExecuteRobot" Content="▶ RPA実行" HorizontalAlignment="Left" Height="59" Margin="160,10,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click" FontSize="22" Background="White" Foreground="#FF33344A" BorderBrush="#FF33344A"/>
+        <Button x:Name="StartBrowser" Content="Chrome起動" HorizontalAlignment="Left" Height="31" Margin="10,147,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click_1" HorizontalContentAlignment="Left" Background="White" BorderBrush="#FF33344A" Foreground="#FF33344A"/>
+        <Button x:Name="InputKey" Content="キー入力" HorizontalAlignment="Left" Height="30" Margin="10,194,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click_2" HorizontalContentAlignment="Left" Background="White" Foreground="#FF33344A" BorderBrush="#FF33344A"/>
+        <TextBox x:Name="InputKeyText" HorizontalAlignment="Left" Height="25" Margin="114,199,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="348" BorderBrush="#FF33344A" Background="White" Foreground="#FF33344A" Grid.ColumnSpan="2"/>
+        <Button x:Name="InputEnter" Content="Enterキー入力" HorizontalAlignment="Left" Height="31" Margin="10,229,0,0" VerticalAlignment="Top" Width="99" Click="InputEnter_Click" HorizontalContentAlignment="Left" Background="White" BorderBrush="#FF33344A" Foreground="#FF33344A"/>
+        <TextBox x:Name="InputProgramPath" HorizontalAlignment="Left" Height="23" Margin="114,118,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="348" BorderBrush="#FF33344A" Background="White" Foreground="#FF33344A" Grid.ColumnSpan="2"/>
+        <Button x:Name="StartProgram" Content="プログラム起動" HorizontalAlignment="Left" Height="31" Margin="10,111,0,0" VerticalAlignment="Top" Width="99" Click="StartProgram_Click" HorizontalContentAlignment="Left" Background="White" BorderBrush="#FF33344A" Foreground="#FF33344A"/>
+        <Button Content="💾 保存" HorizontalAlignment="Left" Height="59" Margin="10,10,0,0" VerticalAlignment="Top" Width="145" FontSize="22" Background="White" BorderBrush="#FF33344A" Foreground="#FF33344A"/>
+        <Button Content="🔀 表示切替" HorizontalAlignment="Left" Height="59" Margin="179.5,10,0,0" VerticalAlignment="Top" Width="145" FontSize="22" Click="Button_Click_3" Background="#FF33344A" Foreground="#FFF9EDED" Grid.Column="1"/>
+        <Image x:Name="scratch" Source="Resources\rpa.PNG" HorizontalAlignment="Left" Height="586" Margin="179.5,111,0,0" VerticalAlignment="Top" Width="744" Grid.Column="1"/>
+        <Button Content="⛔ 停止" HorizontalAlignment="Left" Height="59" Margin="310,10,0,0" VerticalAlignment="Top" Width="145" FontSize="22" Click="Button_Click_4" Background="White" BorderBrush="#FFD20A0A" Foreground="#FFD20A0A" Grid.ColumnSpan="2"/>
+        <Button Content="停止処理挿入" HorizontalAlignment="Left" Height="31" Margin="10,286,0,0" VerticalAlignment="Top" Width="99" HorizontalContentAlignment="Left" Click="Button_Click_5" Background="White" BorderBrush="#FFD20A0A" Foreground="#FFD20A0A"/>
 
     </Grid>
 </Window>
